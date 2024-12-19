@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.main-box{
+    display: flex;
+    align-items: center;
+}
+.logo, .dual-btns{
+    flex-basis: 20%;
+    flex-basis: 20%;
+}
+.menu{
+    flex-basis: 60%;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+   list-style-type: none;
+   display: inline-block;
+   margin-right: 25px;
+   font-size: 16px;
+   color: blue;
+}
+.dual-btns button {
+    background-color: #007BFF; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.dual-btns button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+.dual-btns button:active {
+    background-color: #003d80; 
+    transform: scale(0.98); 
+}
+ /* Hero section */
+
+ 
